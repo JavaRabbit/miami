@@ -1,0 +1,9 @@
+<h3>Pusheen's Stock Picker</h3>
+
+<div class="container-fluid">
+  <% @stock.each do |stock| %>
+      <%= stock.name %><br>
+      <%= stock.symbol %><br>
+      <br>
+  <% end %>
+</div>
